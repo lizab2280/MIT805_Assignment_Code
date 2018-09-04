@@ -51,7 +51,7 @@ class MIT805MapReduceTaxi_AverageTip(MRJob):
         for i in values:
             totalL += 1
             totalW += float(i)
-        yield "Average", str(totalW / float(totalL))
+        yield "Average", str(round(totalW / float(totalL), 2))
 
 '''
  Calculates the Max & Min tip_amount 
