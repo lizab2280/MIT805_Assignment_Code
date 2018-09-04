@@ -19,4 +19,20 @@ mrjob required for MapReduce, found and issue with the newest version and file a
 
 or
 
-* python main.py input\trip_fare.csv input\trip_data.csv
+* python main.py input\trip_fare_1_smaller.csv
+
+
+## Output
+### 1 - Count Vendors
+
+CMT 157
+VTS 152
+
+### 2 - Average Tip
+
+Average 0.54
+
+### 3 - Min and Max Tip
+
+Max Tip:  9.0
+Min Tip:  0.0
